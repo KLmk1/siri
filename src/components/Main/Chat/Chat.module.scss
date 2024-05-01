@@ -1,0 +1,67 @@
+/* Chat.module.scss */
+.message {
+    color: black;
+    word-wrap: break-word;  
+  }
+  
+  
+.chatContainer {
+    height: auto;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.chatname {
+    margin-left: 10px; /* Добавляем отступ слева для имени */
+    font-weight: bold;
+  }
+
+.chatContent {
+    margin-bottom: 30%;
+}
+
+.botavatar {
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+}
+
+.optionButton {
+    width: 200px;
+    border-color: rgb(195, 195, 195);
+    margin: 10px;
+    margin-left: 0;
+}
+
+.time {
+    font-size: small;
+    display: inline-block;
+    float: right;
+    margin: -20px;
+}
+
+.chatavatar {
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+.chatprofile {
+    display: flex; /* Размещаем дочерние элементы в строку */
+    align-items: center; /* Выравниваем элементы по вертикали */
+  }
+
+  .messages {
+    margin-bottom: 300px;
+  }
+
+  .optionButton.disabled:hover {
+    width: 200px;
+    border-color: rgb(195, 195, 195);
+    margin: 10px;
+    margin-left: 0;
+    color: rgb(190, 190, 190);
+  }
